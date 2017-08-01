@@ -20,3 +20,5 @@ I refer to an Ubuntu 17.04 machine
   - profile: Core
   - options: Generate a loader
 * 01_cc_GLFW_WINDOW
+* (maybe python libs required)
+* 02_py_GLFW_WINDOW
