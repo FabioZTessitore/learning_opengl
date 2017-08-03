@@ -6,7 +6,7 @@ Learning OpenGL, PyOpenGL, Three.js
 
 I refer to an Ubuntu 17.04 machine
 
-### Configuration and steps
+### Configuration and initial steps
 
 * sudo apt install build-essential
 * sudo apt install gcc g++ make cmake
