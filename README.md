@@ -20,5 +20,11 @@ I refer to an Ubuntu 17.04 machine
   - profile: Core
   - options: Generate a loader
 * 01_cc_GLFW_WINDOW
-* (maybe python libs required)
+* pip install PyOpenGL PyOpenGL_accelerate
+* pip install glfw
 * 02_py_GLFW_WINDOW
+* 03_cc_VBO_SHADERS
+* 04_cc_VAO
+* 05_cc_TWO_VAO
+* pip install pyrr
+* 06_py_TWO_VAO
