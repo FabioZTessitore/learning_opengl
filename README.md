@@ -28,3 +28,4 @@ I refer to an Ubuntu 17.04 machine
 * 05_cc_TWO_VAO
 * pip install pyrr
 * 06_py_TWO_VAO
+* 07_cc_EBO
