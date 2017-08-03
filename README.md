@@ -29,3 +29,4 @@ I refer to an Ubuntu 17.04 machine
 * pip install pyrr
 * 06_py_TWO_VAO
 * 07_cc_EBO
+* 08_py_EBO
