@@ -115,16 +115,6 @@ def main():
     ]
     squareIndices = numpy.array(squareIndices, dtype=numpy.uint32)
 
-    triangleVAO = glGenVertexArrays(1)
-    triangleVBO = glGenBuffers(1)
-
-    glBindVertexArray(triangleVAO)
-    glBindBuffer(GL_ARRAY_BUFFER, triangleVBO)
-    glBufferData(GL_ARRAY_BUFFER, triangle.itemsize * len(triangle), triangle, GL_STATIC_DRAW)
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, None)
-    glEnableVertexAttribArray(0)
-    glBindVertexArray(0)
-
     squareVAO = glGenVertexArrays(1)
     squareVBO = glGenBuffers(1)
     squareEBO = glGenBuffers(1)
